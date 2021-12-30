@@ -81,4 +81,5 @@ test:
 #
 production:
   <<: *default
+  database: goal_setter_jwt_production
   url: <%= ENV['DATABASE_URL'] %>
