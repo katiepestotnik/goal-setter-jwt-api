@@ -16,3 +16,5 @@ Challenges:
 I tried to add authentication and authorization after I had already build my API with the relational models. I had to restart the backend and start with authorization to get my entity relationships to work again.
 
 Heroku deploy issues.
+
+goal-setter-jwt-api repo github
