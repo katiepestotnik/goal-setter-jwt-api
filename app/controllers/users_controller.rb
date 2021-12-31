@@ -18,11 +18,12 @@ class UsersController < ApplicationController
   
       if @user && @user.authenticate(params[:password])
         token = encode_token({user_id: @user.id})
-        render json: {user: @user, token: token, success: "Back again! Great job #{@user.username}"}
+        render json: {user: @user, token: token}
       else
         render json: {error: "Invalid username or password"}
       end
     end
+
   
   
     def auto_login
