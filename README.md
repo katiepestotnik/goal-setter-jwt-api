@@ -1,7 +1,6 @@
-# Goal-Setter Application
+# The Dream Achiever
 
-Link to Heroku Backend API
-* [Heroku Link](https://goal-setter-api.herokuapp.com/)
+* Heroku Link: https://goal-setter-api.herokuapp.com/
 * Endpoints: users, goals, updates
 
 ![Entity Relationship Diagram](./ERD.png)
@@ -12,9 +11,17 @@ Technologies:
 * JWT
 * rack-cors
 
+Future Improvements:
+Rebuild for models to reflect the SMART goals model.
+- Specific
+- Measurable
+- Achievable
+- Relevant
+- Time-Bound
+
 Challenges:
 I tried to add authentication and authorization after I had already build my API with the relational models. I had to restart the backend and start with authorization to get my entity relationships to work again.
 
-Heroku deploy issues.
+Heroku deploy issues. Possible reason related to above problem of change gitHub repos within the same heroku app. I deleted heroku app and rebuilt and problem ceased.
 
-goal-setter-jwt-api repo github
+
