@@ -11,6 +11,9 @@ Technologies:
 * JWT
 * rack-cors
 
+Utilized Ruby on Rails API with JWT Auth Tutorial by Alex Merced
+https://tuts.alexmercedcoder.com/2020/ruby-tut/
+
 Future Improvements:
 Rebuild for models to reflect the SMART goals model.
 - Specific
