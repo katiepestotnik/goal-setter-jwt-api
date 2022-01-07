@@ -6,7 +6,7 @@
 ![Entity Relationship Diagram](./ERD.png)
 
 Technologies:
-* Ruby with Ruby on Rails
+* Ruby with Ruby on Rails with PostgreSQL
 * Bcrypt
 * JWT
 * rack-cors
